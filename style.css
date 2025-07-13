@@ -209,9 +209,12 @@ body {
     width: 25%;
 }
 
-.experience {
+.exp-details {
     flex: 3;
     margin-top: 0;
+}
+
+.experience {
     border-radius: 24px;
     border-width: 2px;
     border-style: solid;
