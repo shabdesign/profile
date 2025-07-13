@@ -311,6 +311,8 @@ body {
     margin: 0;
     margin-top: 8px;
     margin-bottom: 4px;
+    justify-content: center ;
+    align-content: center;
 }
 
 .projects h3 {
@@ -353,8 +355,7 @@ body {
     width: calc(33.333% - 24px);
     text-decoration: none;
     color: inherit;
-    justify-content: center ;
-    align-content: center;
+    padding: 12px;
 }
 
 .footerContainer {
