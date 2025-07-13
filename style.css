@@ -262,6 +262,50 @@ body {
     padding: 12px 0;
 }
 
+.projects {
+    border-radius: 24px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(207, 218, 177);
+    background: linear-gradient(
+        90deg,
+        rgb(133, 168, 141)0%,
+        rgb(176, 204, 171)50%,
+        rgb(207, 218, 177)100%
+    );
+    padding: 40px;
+}
+
+.projects h1 {
+    color: rgb(25, 37, 10);
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin:0;
+    margin-bottom: 16px
+}
+
+.projects h2 {
+    color: rgb(50, 71, 23);
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin:0;
+    margin-bottom: 4px;
+}
+
+.projects p {
+    color: rgb(25, 37, 10);
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: justify;
+    margin:0;
+}
+
 .footerContainer {
     text-align: center;
     background-color: rgb(25, 37, 10);
