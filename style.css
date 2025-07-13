@@ -360,6 +360,8 @@ body {
 
 .footerContainer {
     text-align: center;
+    justify-content: center ;
+    align-content: center;
     background-color: rgb(25, 37, 10);
     border-width: 2px;
     border-style: solid;
