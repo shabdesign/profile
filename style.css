@@ -272,6 +272,7 @@ body {
         rgb(176, 204, 171)50%,
         rgb(207, 218, 177)100%
     );
+    margin-top: 24px;
     padding: 40px;
 }
 
