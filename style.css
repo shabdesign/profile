@@ -165,11 +165,13 @@ body {
     background-color: rgb(230, 238, 209);
     border-radius: 12px;
     position: relative;
+    margin-bottom: 8px;
 }
 
 .barFilling {
     height: 24px;
     border-radius: 12px;
+    margin-bottom: 8px
 }
 
 .g0 {
