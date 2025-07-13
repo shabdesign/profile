@@ -347,12 +347,12 @@ body {
 }
 
 .project-link {
+    display: block;
+    width: calc(33.333% - 24px);
     border-radius: 24px;
     border-style: solid;
     border-width: 2px;
     border-color:rgb(207, 218, 177);
-    display: block;
-    width: calc(33.333% - 24px);
     text-decoration: none;
     color: inherit;
     padding: 12px;
