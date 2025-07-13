@@ -305,6 +305,14 @@ body {
     padding: 12px 0;
 }
 
+.projects img {
+    border-radius: 24px;
+    border-width: 2px;
+    border-color: rgb(207, 218, 177);
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
 .footerContainer {
     text-align: center;
     background-color: rgb(25, 37, 10);
