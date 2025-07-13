@@ -296,24 +296,12 @@ body {
     margin-bottom: 4px;
 }
 
-.projects p {
-    color: rgb(25, 37, 10);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: justify;
-    margin:0;
-}
-
 .projects li {
     color: rgb(25, 37, 10);
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-optical-sizing: auto;
     font-style: normal;
-    text-align: justify;
-    margin:0;
 }
 
 .footerContainer {
