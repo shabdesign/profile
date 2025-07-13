@@ -302,6 +302,7 @@ body {
     font-size: 20px;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 12px 0;
 }
 
 .footerContainer {
