@@ -160,16 +160,16 @@ body {
 
 .barContainer {
     width: 100%;
-    height: 24px;
+    height: 16px;
     background-color: rgb(230, 238, 209);
-    border-radius: 12px;
+    border-radius: 8px;
     position: relative;
     margin-bottom: 8px;
 }
 
 .barFilling {
-    height: 24px;
-    border-radius: 12px;
+    height: 16px;
+    border-radius: 8px;
     margin-bottom: 8px
 }
 
@@ -209,7 +209,7 @@ body {
 }
 
 .exp-details {
-    flex: 3;
+    flex: 5;
     margin-top: 0;
 }
 
