@@ -341,11 +341,13 @@ body {
     font-style: italic;
     text-align: justify;
     margin:0;
+    margin-bottom: 8px;
 }
 
 .project-link {
-    border-radius: 12px;
+    border-radius: 24px;
     border-style: solid;
+    border-width: 2px;
     border-color:rgb(207, 218, 177);
     display: block;
     width: calc(33.333% - 24px);
