@@ -296,6 +296,13 @@ body {
     margin-bottom: 4px;
 }
 
+.projects .ui-ux {
+    display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .projects img {
     border-radius: 24px;
     border-style: solid;
@@ -341,7 +348,7 @@ body {
     border-style: solid;
     border-color:rgb(207, 218, 177);
     display: block;
-    width: calc(33.333% - 16px);
+    width: calc(33.333% - 24px);
     text-decoration: none;
     color: inherit;
     justify-content: center ;
