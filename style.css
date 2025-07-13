@@ -326,6 +326,16 @@ body {
     margin:0;
 }
 
+.project-link {
+    border-radius: 12px;
+    border-style: solid;
+    border-color:rgb(207, 218, 177);
+    display: block;
+    width: calc(33.333% - 16px);
+    text-decoration: none;
+    color: inherit;
+}
+
 .footerContainer {
     text-align: center;
     background-color: rgb(25, 37, 10);
@@ -335,12 +345,6 @@ body {
     border-radius: 24px;
     margin-top: 24px;
     padding: 24px;
-}
-
-.project-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
 }
 
 .footerContainer p {
