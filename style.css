@@ -354,10 +354,9 @@ body {
 }
 .project-link {
     display: block;
-    width: calc(33.333% - 24px);
+    width: calc(33.333% - 36px);
     text-decoration: none;
     color: inherit;
-    padding: 12px;
 }
 
 .project-card {
@@ -366,6 +365,7 @@ body {
     border-width: 2px;
     border-color:rgb(207, 218, 177);
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 12px;
 }
 
 .footerContainer {
