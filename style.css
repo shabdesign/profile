@@ -327,7 +327,7 @@ body {
     margin-bottom: 4px;
 }
 
-.projects p {
+.project-card p {
     color: rgb(25, 37, 10);
     font-family: "Roboto Condensed", sans-serif;
     font-size: 16px;
@@ -335,6 +335,12 @@ body {
     font-style: normal;
     text-align: justify;
     margin:0;
+    display: -webkit-box;
+      -webkit-line-clamp: 5;     /* maksimal 5 baris */
+      -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .project-card .subtitle {
@@ -368,6 +374,11 @@ body {
     border-color:rgb(207, 218, 177);
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     padding: 12px;
+}
+
+.project-link:hover .project-card {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
 .footerContainer {
