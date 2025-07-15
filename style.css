@@ -359,6 +359,8 @@ body {
     gap: 24px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
 }
 .project-link {
     display: block;
