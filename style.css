@@ -337,10 +337,10 @@ body {
     margin:0;
 }
 
-project-card .subtitle {
+.project-card .subtitle {
     color: rgb(86, 110, 47);
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-optical-sizing: auto;
     font-style: italic;
     text-align: justify;
