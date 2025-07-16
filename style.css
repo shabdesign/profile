@@ -40,19 +40,6 @@ li {
     font-size: 14px;
 }
 
-.common-box {
-    border-radius: 24px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(207, 218, 177);
-    background: linear-gradient(
-        90deg,
-        rgb(133, 168, 141)0%,
-        rgb(176, 204, 171)50%,
-        rgb(207, 218, 177)100%
-    );
-}
-
 button {
     border-radius: 24px; 
     margin: 8px 0;
@@ -99,6 +86,19 @@ button:disabled {
     color: rgb(247, 252, 221);
 }
 
+.common-box {
+    border-radius: 24px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(207, 218, 177);
+    background: linear-gradient(
+        90deg,
+        rgb(133, 168, 141)0%,
+        rgb(176, 204, 171)50%,
+        rgb(207, 218, 177)100%
+    );
+}
+
 .headerContainer {
     display: flex;
     gap: 24px;
@@ -137,28 +137,14 @@ button:disabled {
 .key-skills {
     flex: 1;
     margin-top: 0;
-    border-radius: 24px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(207, 218, 177);
-    background: linear-gradient(
-        90deg,
-        rgb(133, 168, 141)0%,
-        rgb(176, 204, 171)50%,
-        rgb(207, 218, 177)100%
-    );
     padding-top: 0;
     padding: 40px
 }
 
-.ui-ux,
-.front-end,
-.language {
+.skills {
     margin: 0;
     margin-bottom: 16px;
 }
-
-
 
 .barContainer {
     width: 100%;
