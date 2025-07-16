@@ -202,71 +202,12 @@ button:disabled {
 }
 
 #experience {
-    border-radius: 24px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(207, 218, 177);
-    background: linear-gradient(
-        90deg,
-        rgb(133, 168, 141)0%,
-        rgb(176, 204, 171)50%,
-        rgb(207, 218, 177)100%
-    );
     padding: 40px;
-}
-
-#experience h1 {
-    color: rgb(25, 37, 10);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 32px;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin:0;
-    margin-bottom: 16px;
-}
-
-
-
-.organizations li {
-    color: rgb(25, 37, 10);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 20px;
-    padding: 12px 0;
 }
 
 #projects {
-    border-radius: 24px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(207, 218, 177);
-    background: linear-gradient(
-        90deg,
-        rgb(133, 168, 141)0%,
-        rgb(176, 204, 171)50%,
-        rgb(207, 218, 177)100%
-    );
     margin-top: 24px;
     padding: 40px;
-}
-
-#projects h1 {
-    color: rgb(25, 37, 10);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 32px;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin:0;
-    margin-bottom: 16px
-}
-
-#projects h2 {
-    color: rgb(50, 71, 23);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 24px;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin:0;
-    margin-bottom: 4px;
 }
 
 #projects .ui-ux {
@@ -290,26 +231,9 @@ button:disabled {
     justify: center;
 }
 
-#projects h3 {
-    color: rgb(25, 37, 10);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 20px;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin:0;
-    margin-bottom: 4px;
-}
-
 .project-card p {
-    color: rgb(25, 37, 10);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: justify;
-    margin:0;
     display: -webkit-box;
-      -webkit-line-clamp: 5;     /* maksimal 5 baris */
+      -webkit-line-clamp: 5;
       -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -318,12 +242,7 @@ button:disabled {
 
 .project-card .subtitle {
     color: rgb(86, 110, 47);
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 14px;
-    font-optical-sizing: auto;
     font-style: italic;
-    text-align: justify;
-    margin:0;
     margin-bottom: 8px;
 }
 
@@ -335,6 +254,7 @@ button:disabled {
     margin-top: 12px;
     margin-bottom: 24px;
 }
+
 .project-link {
     display: block;
     width: calc(33.333% - 36px);
