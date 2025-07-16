@@ -102,7 +102,7 @@ button:disabled {
     border: none;
     background: linear-gradient(
         90deg,
-        #93B1D2 0%,
+        #BED0E4 0%,
         #B4CFA4 100%
     );
 }
@@ -116,7 +116,7 @@ button:disabled {
 .blue-box {
   border-radius: 24px;
   border: none;
-  background: #93B1D2;
+  background: #BED0E4;
 }
 
 .headerContainer {
@@ -169,7 +169,7 @@ button:disabled {
 .barContainer {
     width: 100%;
     height: 16px;
-    background-color: #D4E0ED;
+    background-color: #DFE8F1;
     border-radius: 8px;
     position: relative;
     margin-bottom: 8px;
@@ -212,7 +212,7 @@ button:disabled {
 }
 
 .g6 {
-    background-color: #A9C1DB;
+    background-color: #93B1D2;
     width: 25%;
 }
 
