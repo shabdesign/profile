@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF0D8;
+  background-color: #FFF7E0;
 }
 
 body, p, h1, h2, h3 {
@@ -290,6 +290,7 @@ button:disabled {
     border-radius: 24px;
     border-style: solid 2px #FFFFFF;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #A1B499;
     padding: 12px;
 }
 
