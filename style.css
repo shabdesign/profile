@@ -104,7 +104,7 @@ button:disabled {
 
 .solid-box {
   border-radius: 24px;
-  border: 2px solid (207, 218, 177);
+  border: 2px solid rgb(207, 218, 177);
   background: rgb(133, 168, 141);
 }
 
@@ -257,7 +257,6 @@ button:disabled {
       -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-
 }
 
 .project-card .subtitle {
@@ -298,7 +297,7 @@ button:disabled {
 
 .footerContainer {
     text-align: center;
-    justify-content: center ;
+    justify-content: center;
     align-content: center;
     margin: 12px 12px;
     margin-top: 24px;
