@@ -83,14 +83,14 @@ button:disabled {
 }
 
 .tab-button {
-    border: npne;
+    border: none;
     background-color: #638255;
     font-size: 16px;
     color: #FFFFFF;
 }
 
 .tab-button.active {
-    border-width: none;
+    border: none;
     background-color: #1C3212;;
     font-size: 16px;
     font-weight: bold;
