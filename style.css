@@ -1,48 +1,50 @@
-body {
-  background-color: rgb(25, 37, 10);
-  margin: 24px 24px;
-}
-
 body, p, h1, h2, h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
-  color: rgb(25, 37, 10);
   margin: 0;
 }
 
-h1 {
-    color: rgb(25, 37, 10);
-    font-size: 32px;
-    margin-bottom: 12px;
+.green-dark {
+  color: #1C3212;
 }
 
-.name {
-  margin-bottom: 4px;
+.green-med {
+  color: #2C4A1F;
+}
+
+.blue-dark {
+  color:  #152C45;
+}
+
+.blue-med {
+  color: #2D4B6C
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
 }
 
 h2 {
-    color: rgb(50, 71, 23);
     font-size: 24px;
     margin-bottom: 8px;
 }
 
 h3 {
-    color: rgb(25, 37, 10);
     font-size: 16px;
     margin-bottom: 4px;
 }
 
 p {
-    color: rgb(50, 71, 23);
     font-size: 16px;
     text-align: justify;
 }
 
 li {
-    color: rgb(25, 37, 10);
     font-size: 16px;
+    margin-bottom: 2px;
 }
 
 button {
@@ -64,48 +66,53 @@ button:disabled {
 
 .primary-button {
     border: none;
-    background-color: rgb(25, 37, 10);
+    background-color: #1C3212;
     font-size: 12px;
-    color: rgb(247, 252, 221);
+    color: #FFFFFF;
 }
 
 .secondary-button {
-    border: 1px solid rgb(50, 71, 23);
-    background-color: rgb(172, 194, 167);
+    border: none;
+    background-color: #638255;
     font-size: 12px;
-    color: rgb(30, 43, 13);
+    color: #FFFFFF;
 }
 
 .tab-button {
-    border: 1px solid rgb(247,252,221);
-    background-color: rgb(25, 37, 10);
+    border: npne;
+    background-color: #638255;
     font-size: 16px;
-    color: rgb(247, 252, 221);
+    color: #FFFFFF;
 }
 
 .tab-button.active {
-    border-width: 1px solid rgb(50, 71, 23);
-    background-color: rgb(172, 194, 167);
+    border-width: none;
+    background-color: #1C3212;;
     font-size: 16px;
     font-weight: bold;
-    color: rgb(30, 43, 13);
+    color: #FFFFFF;
 }
 
 .gradient-box {
     border-radius: 24px;
-    border: 2px solid rgb(207, 218, 177);
+    border: none;
     background: linear-gradient(
         90deg,
-        rgb(133, 168, 141)0%,
-        rgb(176, 204, 171)50%,
-        rgb(207, 218, 177)100%
+        #93B1D2 0%,
+        #B4CFA4 100%
     );
 }
 
-.solid-box {
+.green-box {
   border-radius: 24px;
-  border: 2px solid rgb(207, 218, 177);
-  background: rgb(133, 168, 141);
+  border: none;
+  background: #B4CFA4;
+}
+
+.blue-box {
+  border-radius: 24px;
+  border: none;
+  background: #93B1D2;
 }
 
 .headerContainer {
@@ -129,7 +136,7 @@ button:disabled {
     border-radius: 100%;
     border-width: 1px;
     border-color: rgb(207, 218, 177);
-    box-shadow: 0px 0px 8px 2px rgb(251, 255, 183);
+    box-shadow: 0px 0px 8px 2px #FFFFFF;
 }
 
 .intro-header {
