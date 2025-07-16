@@ -1,3 +1,7 @@
+body {
+  background-color: #FFF0D8;
+}
+
 body, p, h1, h2, h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
@@ -179,37 +183,37 @@ button:disabled {
 }
 
 .g0 {
-    background-color: rgb(37, 53, 15);
+    background-color: #071828;
     width: 85%;
 }
 
 .g1 {
-    background-color: rgb(50, 71, 23);
+    background-color: #0C233B;
     width: 75%;
 }
 
 .g2 {
-    background-color: rgb(74, 97, 38);
+    background-color: #1A3552;
     width: 65%;
 }
 
 .g3 {
-    background-color: rgb(86, 110, 47);
+    background-color: #2D4B6C;
     width: 55%;
 }
 
 .g4 {
-    background-color: rgb(99, 122, 60);
+    background-color: #476585;
     width: 45%;
 }
 
 .g5 {
-    background-color: rgb(112, 133, 78);
+    background-color: #607E9F;
     width: 35%;
 }
 
 .g6 {
-    background-color: rgb(139, 161, 103);
+    background-color: #A9C1DB;
     width: 25%;
 }
 
@@ -247,9 +251,7 @@ button:disabled {
     height: 200px;
     object-fit: cover;
     border-radius: 24px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(207, 218, 177);
+    border: solid 2px #FFFFFF;
     margin: 0;
     margin-bottom: 4px;
     align: center;
@@ -265,7 +267,6 @@ button:disabled {
 }
 
 .project-card .subtitle {
-    color: rgb(86, 110, 47);
     font-style: italic;
     margin-bottom: 8px;
 }
@@ -288,9 +289,7 @@ button:disabled {
 
 .project-card {
     border-radius: 24px;
-    border-style: solid;
-    border-width: 2px;
-    border-color:rgb(207, 218, 177);
+    border-style: solid 2px #FFFFFF;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     padding: 12px;
 }
