@@ -100,7 +100,7 @@ button:disabled {
 
 .solid-box {
   border-radius: 24px;
-  border: 2px solid rgb(86, 110, 47);
+  border: 2px solid rgb(133, 168, 141);
   background: rgb(74, 97, 38);
 }
 
@@ -120,8 +120,8 @@ button:disabled {
 }
 
 .photo-header img{
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     border-width: 1px;
     border-color: rgb(207, 218, 177);
