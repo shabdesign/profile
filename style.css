@@ -72,18 +72,18 @@ button:disabled {
 }
 
 .tab-button {
-    border-width: 1px solid rgb(50, 71, 23);
-    background-color: rgb(172, 194, 167);
+    border: 1px solid rgb(247,252,221);
+    background-color: rgb(25, 37, 10);
     font-size: 16px;
-    color: rgb(30, 43, 13);
+    color: rgb(247, 252, 221);
 }
 
 .tab-button.active {
-    border: none;
-    background-color: rgb(25, 37, 10);
+    border-width: 1px solid rgb(50, 71, 23);
+    background-color: rgb(172, 194, 167);
     font-size: 16px;
     font-weight: bold;
-    color: rgb(247, 252, 221);
+    color: rgb(30, 43, 13);
 }
 
 .common-box {
