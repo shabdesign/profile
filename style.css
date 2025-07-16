@@ -222,11 +222,9 @@ button:disabled {
   opacity: 1;
 }
 
-#experience {
-    padding: 40px;
-}
-
-#projects {
+#experience,
+#projects,
+#educations {
     padding: 40px;
 }
 
