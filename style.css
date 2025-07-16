@@ -107,7 +107,7 @@ button:disabled {
 .headerContainer {
     display: flex;
     gap: 24px;
-    margin: auto;
+    margin: 12px 12px;
     margin-bottom: 24px;
     padding: 40px;
 }
@@ -137,6 +137,7 @@ button:disabled {
     display: flex;
     align-items: flex-start;
     gap: 24px;
+    margin: 12px  12px;
 }
 
 .key-skills {
@@ -285,6 +286,7 @@ button:disabled {
     text-align: center;
     justify-content: center ;
     align-content: center;
+    margin: 12px 12px;
     margin-top: 24px;
     padding: 24px;
 }
