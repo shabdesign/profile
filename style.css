@@ -86,17 +86,21 @@ button:disabled {
     color: rgb(30, 43, 13);
 }
 
-.common-box {
+.gradient-box {
     border-radius: 24px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(207, 218, 177);
+    border: 2px solid rgb(207, 218, 177);
     background: linear-gradient(
         90deg,
         rgb(133, 168, 141)0%,
         rgb(176, 204, 171)50%,
         rgb(207, 218, 177)100%
     );
+}
+
+.solid-box {
+  border-radius: 24px;
+  border: 2px solid rgb(86, 110, 47);
+  background: rgb(74, 97, 38);
 }
 
 .headerContainer {
