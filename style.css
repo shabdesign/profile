@@ -343,7 +343,7 @@ body {
 
 }
 
-#project-card .subtitle {
+.project-card .subtitle {
     color: rgb(86, 110, 47);
     font-family: "Roboto Condensed", sans-serif;
     font-size: 14px;
@@ -354,7 +354,7 @@ body {
     margin-bottom: 8px;
 }
 
-#project-container {
+.project-container {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
