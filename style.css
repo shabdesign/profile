@@ -95,8 +95,11 @@ button:disabled {
     border: none;
     background-color: #1C3212;
     transform: scale(1.2);
+    padding: 24px 24px;
     font-size: 16px;
     color: #FFFFFF;
+    z-index: 1;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
 
 .gradient-box {
@@ -224,10 +227,11 @@ button:disabled {
 }
 
 .tabs {
-  position: relative;
   padding: 6px 12px;
   margin: 0;
   margin-bottom: 12px;
+  position: relative;
+  overflow: visible;
 }
 
 .tab-content {
