@@ -214,7 +214,6 @@ button:disabled {
   border-radius: 24px;
   border: none;
   background-color: #B4CFA4;
-  padding: 6px 12px;
   margin: 0;
   margin-bottom: 12px;
   position: relative;
@@ -224,7 +223,7 @@ button:disabled {
 .tab-button {
     border-radius: 24px;
     border: none;
-    padding: 6px 24px;
+    padding: 6px 12px;
     background-color: #B4CFA4;
     font-size: 16px;
     color: #1C3212;
