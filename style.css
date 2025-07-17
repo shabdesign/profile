@@ -85,6 +85,7 @@ button:disabled {
 .tab-button {
     border-radius: 24px;
     border: none;
+    padding: 6px 24px;
     background-color: #B4CFA4;
     font-size: 16px;
     color: #1C3212;
@@ -224,6 +225,7 @@ button:disabled {
 }
 
 .tabs {
+  padding: 6px 24px
   margin: 0;
   margin-bottom: 12px;
 }
