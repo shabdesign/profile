@@ -82,26 +82,6 @@ button:disabled {
     color: #FFFFFF;
 }
 
-.tab-button {
-    border-radius: 24px;
-    border: none;
-    padding: 6px 24px;
-    background-color: #B4CFA4;
-    font-size: 16px;
-    color: #1C3212;
-}
-
-.tab-button.active {
-    border: none;
-    background-color: #1C3212;
-    transform: scale(1.2);
-    padding: 24px 24px;
-    font-size: 16px;
-    color: #FFFFFF;
-    z-index: 1;
-    box-shadow: 0 0 12px rgba(0,0,0,0.2);
-}
-
 .gradient-box {
     border-radius: 24px;
     border: none;
@@ -232,6 +212,27 @@ button:disabled {
   margin-bottom: 12px;
   position: relative;
   overflow: visible;
+}
+
+.tab-button {
+    border-radius: 24px;
+    border: none;
+    padding: 6px 24px;
+    background-color: #B4CFA4;
+    font-size: 16px;
+    color: #1C3212;
+}
+
+.tab-button.active {
+    border: none;
+    background-color: #1C3212;
+    transform: scale(1.2);
+    padding: 24px 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    z-index: 1;
+    position: absolute;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
 
 .tab-content {
