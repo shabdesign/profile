@@ -223,7 +223,7 @@ button:disabled {
 .tab-button {
     border-radius: 24px;
     border: none;
-    padding: 0;
+    padding: 4px;
     background-color: #B4CFA4;
     font-size: 16px;
     color: #1C3212;
@@ -232,7 +232,6 @@ button:disabled {
 .tab-button.active {
     border: none;
     background-color: #1C3212;
-    padding: 8px;
     transform: scale(1.3);
     font-size: 16px;
     color: #FFFFFF;
