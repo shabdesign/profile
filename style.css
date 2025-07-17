@@ -236,6 +236,7 @@ button:disabled {
     transform: scale(1.4);
     font-size: 16px;
     color: #FFFFFF;
+    position: relative;
     z-index: 1;
     box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
