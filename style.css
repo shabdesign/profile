@@ -210,7 +210,7 @@ button:disabled {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
   border-radius: 24px;
   border: none;
   background-color: #B4CFA4;
@@ -223,16 +223,15 @@ button:disabled {
 .tab-button {
     border-radius: 24px;
     border: none;
-    padding: 6px 12px;
     background-color: #B4CFA4;
-    font-size: 16px;
+    font-size: 14px;
     color: #1C3212;
 }
 
 .tab-button.active {
     border: none;
     background-color: #1C3212;
-    transform: scale(1.5);
+    transform: scale(1.3);
     font-size: 16px;
     color: #FFFFFF;
     position: relative;
